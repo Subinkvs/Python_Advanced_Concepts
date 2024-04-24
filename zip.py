@@ -79,3 +79,13 @@
 #             return "Divison by zero is not possible"
         
 # print(division(2))
+# from module import square, greet, pi
+
+# square(2)
+
+# greet('Subin')
+# print(pi)
+
+# import math
+
+# print(math.pi)
