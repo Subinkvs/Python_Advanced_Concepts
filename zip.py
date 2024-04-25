@@ -89,3 +89,18 @@
 # import math
 
 # print(math.pi)
+
+class Animal:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+        
+    def bark(self):
+        print(f"{self.name} is a {self.breed}")
+        
+        
+        
+dog = Animal('Simba', 'German Shepard')
+manni = Animal('Rambo', 'Dalmatian')
+dog.bark()
+manni.bark()
