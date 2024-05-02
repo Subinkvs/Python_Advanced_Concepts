@@ -30,7 +30,7 @@ dic4 = {
 }
 
 dic5 = {
-    "name":"Sohu",
+    "name":"Sonu",
     "age": 24
 
 }
@@ -71,13 +71,14 @@ SearchName(list, 'n')
 #         print(i)
         
 # test_tuple()
-# import sys
+import sys
 
-# list = [1, 2, 3, 4, 5, 6]
-# tuple = (1, 2, 3, 4, 5, 8, 9)
+list = [1, 2, 3, 4, 5]
+tuple = (1, 2, 3, 4, 5)
 
-# print(sys.getsizeof(list))
-# print(sys.getsizeof(tuple))
+print(sys.getsizeof(list))
+print(sys.getsizeof(tuple))
+
 
 # tuple = ('Subin', 28, 'Software Engineer')
 
