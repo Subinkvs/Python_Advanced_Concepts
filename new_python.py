@@ -126,5 +126,12 @@ data.sort(key = lambda person: person['age'])
 
 print(data)
 
+def call(func): 
+    func()
+    
+def add(x, y):
+    print(x + y)
+
+call(lambda: add(2, 3))
 
 

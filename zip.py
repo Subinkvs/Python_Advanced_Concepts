@@ -90,17 +90,26 @@
 
 # print(math.pi)
 
-class Animal:
-    def __init__(self, name, breed):
-        self.name = name
-        self.breed = breed
+# class Animal:
+#     def __init__(self, name, breed):
+#         self.name = name
+#         self.breed = breed
         
-    def bark(self):
-        print(f"{self.name} is a {self.breed}")
+#     def bark(self):
+#         print(f"{self.name} is a {self.breed}")
         
         
         
-dog = Animal('Simba', 'German Shepard')
-manni = Animal('Rambo', 'Dalmatian')
-dog.bark()
-manni.bark()
+# dog = Animal('Simba', 'German Shepard')
+# manni = Animal('Rambo', 'Dalmatian')
+# dog.bark()
+# manni.bark()
+
+person = ['john', 'subin', 'shaheer', 'samuel']
+
+marks = [ 89, 87, 78, 99]
+
+for i, j in zip(person, marks):
+    print(f"{i}:{j}")
+    
+print(list((zip(person, marks))))
