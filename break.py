@@ -3,9 +3,9 @@
 #         continue
 #     print(i)
 
-a = 3
+# a = 3
 
-_ = a
+# _ = a
 
-print(_)
+# print(_)
     
