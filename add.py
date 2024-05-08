@@ -5,5 +5,5 @@
 from module1 import sum_module
 
 
-list = [1, 2, 3, 4, 5, 8]
+list = [1, 2, 3, 4, 5, 8, 10]
 print(sum_module(list))

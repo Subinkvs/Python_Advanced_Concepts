@@ -105,11 +105,28 @@
 # dog.bark()
 # manni.bark()
 
-person = ['john', 'subin', 'shaheer', 'samuel']
+# person = ['john', 'subin', 'shaheer', 'samuel']
 
-marks = [ 89, 87, 78, 99]
+# marks = [ 89, 87, 78, 99]
 
-for i, j in zip(person, marks):
-    print(f"{i}:{j}")
+# for i, j in zip(person, marks):
+#     print(f"{i}:{j}")
     
-print(list((zip(person, marks))))
+# print(list((zip(person, marks))))
+
+# dic1 = {
+#     'a': 1, 
+#     'b': 2, 
+#     'c': 3 
+#     }
+
+# dic2 = {
+#     'd': 4,
+#     'e': 5,
+#     'f': 6
+#     }
+
+# result = zip(dic2.keys(), dic1.values())
+
+# for item in result:
+#     print(item)
