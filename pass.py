@@ -16,6 +16,12 @@
 # del list[0]
 # print(list)
 
-name ="subin"
-result = ',,'.join(name)
-print(result)
+# name ="subin"
+# result = ',,'.join(name)
+# print(result)
+
+# for i in enumerate(name):
+#     print(i)
+
+numbers = list(range(1, 10))
+print(numbers)

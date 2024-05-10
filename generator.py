@@ -1,9 +1,22 @@
-def generator_fun():
-    yield 1
-    yield 2
-    yield 3
+# def generator_func(n):
+#    while n <= 5:
+#        yield n
+#        n += 1
     
-obj = generator_fun()
+# x = generator_func(1)
 
-for i in obj:
-    print(i)
+# for i in x:
+#     print(i)
+
+def outer():
+    x = 5
+    
+    def inner():
+        nonlocal x 
+        x = 10
+        print(x)
+        
+    inner()
+    print(x)
+    
+outer()

@@ -1,14 +1,14 @@
-def my_decorator(fun):  
+def my_decorator(func):
+    
     def wrapper():
-        print("This is my first decorator function")
-        fun()
-        print("Hello it's working")
+        print("Hello ")
+        func()
+        print("How are you?")
     return wrapper
     
-@my_decorator   
+
 def test():
-    print("Hello Subin")
+    print("Subin")
     
-test()
-    
-    
+x = my_decorator(test)
+x()
